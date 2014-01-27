@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+ruby '2.0.0'
 gem 'rails', '~> 4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
@@ -34,7 +34,7 @@ gem 'select2-rails'
 gem 'rails-observers'
 
 gem 'rename'
-
+gem 'rails_12factor'
 gem 'hierapolis-rails', '~> 0.4.0'
 gem 'breadcrumbs_on_rails', '~> 2.3.0'
 gem 'blankable', '~> 0.2.0'
