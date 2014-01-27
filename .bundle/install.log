@@ -1,0 +1,258 @@
+# Logfile created on 2014-01-27 10:50:25 +0000 by logger.rb/36483
+I, [2014-01-27T10:50:25.761218 #62041]  INFO -- : 0:  rake (10.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.1.0.gemspec
+I, [2014-01-27T10:50:25.761736 #62041]  INFO -- : 0:  i18n (0.6.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.5.gemspec
+I, [2014-01-27T10:50:25.762101 #62041]  INFO -- : 0:  minitest (4.7.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
+I, [2014-01-27T10:50:25.762430 #62041]  INFO -- : 0:  multi_json (1.8.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-27T10:50:25.762704 #62041]  INFO -- : 0:  atomic (1.1.14) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/atomic-1.1.14.gemspec
+I, [2014-01-27T10:50:25.763019 #62041]  INFO -- : 0:  thread_safe (0.1.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-27T10:50:25.763338 #62041]  INFO -- : 0:  tzinfo (0.3.38) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-27T10:50:27.130797 #62041]  INFO -- : 0:  activesupport (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activesupport-4.0.0.gemspec
+I, [2014-01-27T10:50:27.131537 #62041]  INFO -- : 0:  builder (3.1.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/builder-3.1.4.gemspec
+I, [2014-01-27T10:50:27.131980 #62041]  INFO -- : 0:  erubis (2.7.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/erubis-2.7.0.gemspec
+I, [2014-01-27T10:50:27.132428 #62041]  INFO -- : 0:  rack (1.5.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-01-27T10:50:27.132807 #62041]  INFO -- : 0:  rack-test (0.6.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-27T10:50:28.418006 #62041]  INFO -- : 0:  actionpack (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/actionpack-4.0.0.gemspec
+I, [2014-01-27T10:50:28.418689 #62041]  INFO -- : 0:  mime-types (1.25) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mime-types-1.25.gemspec
+I, [2014-01-27T10:50:28.419083 #62041]  INFO -- : 0:  polyglot (0.3.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-27T10:50:28.419463 #62041]  INFO -- : 0:  treetop (1.4.15) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/treetop-1.4.15.gemspec
+I, [2014-01-27T10:50:28.419842 #62041]  INFO -- : 0:  mail (2.5.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mail-2.5.4.gemspec
+I, [2014-01-27T10:50:28.929994 #62041]  INFO -- : 0:  actionmailer (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/actionmailer-4.0.0.gemspec
+I, [2014-01-27T10:50:29.714209 #62041]  INFO -- : 0:  activemodel (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activemodel-4.0.0.gemspec
+I, [2014-01-27T10:50:29.714978 #62041]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-01-27T10:50:30.331960 #62041]  INFO -- : 0:  arel (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/arel-4.0.0.gemspec
+I, [2014-01-27T10:50:31.593043 #62041]  INFO -- : 0:  activerecord (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-4.0.0.gemspec
+I, [2014-01-27T10:50:31.593787 #62041]  INFO -- : 0:  addressable (2.3.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/addressable-2.3.5.gemspec
+I, [2014-01-27T10:50:32.119793 #62041]  INFO -- : 0:  annotate (2.5.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/annotate-2.5.0.gemspec
+I, [2014-01-27T10:50:32.120448 #62041]  INFO -- : 0:  json (1.8.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/json-1.8.1.gemspec
+I, [2014-01-27T10:50:32.120904 #62041]  INFO -- : 0:  mini_portile (0.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mini_portile-0.5.1.gemspec
+I, [2014-01-27T10:50:32.121312 #62041]  INFO -- : 0:  nokogiri (1.6.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/nokogiri-1.6.0.gemspec
+I, [2014-01-27T10:50:32.121727 #62041]  INFO -- : 0:  uuidtools (2.1.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-27T10:50:32.122121 #62041]  INFO -- : 0:  aws-sdk (1.11.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/aws-sdk-1.11.1.gemspec
+I, [2014-01-27T10:50:32.122590 #62041]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-27T10:50:32.123116 #62041]  INFO -- : 0:  thor (0.18.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/thor-0.18.1.gemspec
+I, [2014-01-27T10:50:33.109011 #62041]  INFO -- : 0:  railties (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/railties-4.0.0.gemspec
+I, [2014-01-27T10:50:33.109618 #62041]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-27T10:50:33.109936 #62041]  INFO -- : 0:  bundler (1.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-27T10:50:33.110256 #62041]  INFO -- : 0:  hike (1.2.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/hike-1.2.3.gemspec
+I, [2014-01-27T10:50:33.110580 #62041]  INFO -- : 0:  tilt (1.4.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/tilt-1.4.1.gemspec
+I, [2014-01-27T10:50:34.039938 #62041]  INFO -- : 0:  sprockets (2.10.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-2.10.0.gemspec
+I, [2014-01-27T10:50:34.040648 #62041]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-01-27T10:50:36.654280 #62041]  INFO -- : 0:  rails (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rails-4.0.0.gemspec
+I, [2014-01-27T10:50:37.006721 #62041]  INFO -- : 0:  best_in_place (2.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/best_in_place-366413be357d/best_in_place.gemspec
+I, [2014-01-27T10:50:37.007169 #62041]  INFO -- : 0:  coderay (1.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coderay-1.1.0.gemspec
+I, [2014-01-27T10:50:37.007449 #62041]  INFO -- : 0:  better_errors (1.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/better_errors-1.0.1.gemspec
+I, [2014-01-27T10:50:37.007728 #62041]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/debug_inspector-0.0.2.gemspec
+I, [2014-01-27T10:50:37.008004 #62041]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/binding_of_caller-0.7.2.gemspec
+I, [2014-01-27T10:50:37.494664 #62041]  INFO -- : 0:  blankable (0.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/blankable-0.2.0.gemspec
+I, [2014-01-27T10:50:38.031301 #62041]  INFO -- : 0:  bootstrap-datepicker-rails (1.1.1.8) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/bootstrap-datepicker-rails-1.1.1.8.gemspec
+I, [2014-01-27T10:50:38.031926 #62041]  INFO -- : 0:  sass (3.2.12) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sass-3.2.12.gemspec
+I, [2014-01-27T10:50:38.413562 #62041]  INFO -- : 0:  bootstrap-sass (3.0.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/bootstrap-sass-d3a34e06b37f/bootstrap-sass.gemspec
+I, [2014-01-27T10:50:38.929926 #62041]  INFO -- : 0:  breadcrumbs_on_rails (2.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/breadcrumbs_on_rails-2.3.0.gemspec
+I, [2014-01-27T10:50:39.773119 #62041]  INFO -- : 0:  highline (1.6.20) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/highline-1.6.20.gemspec
+I, [2014-01-27T10:50:40.861696 #62041]  INFO -- : 0:  net-ssh (2.7.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-ssh-2.7.0.gemspec
+I, [2014-01-27T10:50:41.628267 #62041]  INFO -- : 0:  net-scp (1.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-scp-1.1.2.gemspec
+I, [2014-01-27T10:50:42.232494 #62041]  INFO -- : 0:  net-sftp (2.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-sftp-2.1.2.gemspec
+I, [2014-01-27T10:50:42.709420 #62041]  INFO -- : 0:  net-ssh-gateway (1.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-ssh-gateway-1.2.0.gemspec
+I, [2014-01-27T10:50:43.582798 #62041]  INFO -- : 0:  capistrano (2.15.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capistrano-2.15.5.gemspec
+I, [2014-01-27T10:50:44.099416 #62041]  INFO -- : 0:  capistrano-ext (1.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capistrano-ext-1.2.1.gemspec
+I, [2014-01-27T10:50:44.099955 #62041]  INFO -- : 0:  xpath (2.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/xpath-2.0.0.gemspec
+I, [2014-01-27T10:50:44.100858 #62041]  INFO -- : 0:  capybara (2.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capybara-2.1.0.gemspec
+I, [2014-01-27T10:50:44.950303 #62041]  INFO -- : 0:  chronic (0.10.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/chronic-0.10.2.gemspec
+I, [2014-01-27T10:50:46.326728 #62041]  INFO -- : 0:  chunky_png (1.2.9) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/chunky_png-1.2.9.gemspec
+I, [2014-01-27T10:50:46.327284 #62041]  INFO -- : 0:  climate_control (0.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/climate_control-0.0.3.gemspec
+I, [2014-01-27T10:50:46.327603 #62041]  INFO -- : 0:  cocaine (0.5.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/cocaine-0.5.2.gemspec
+I, [2014-01-27T10:50:47.301038 #62041]  INFO -- : 0:  cocoon (1.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/cocoon-1.2.1.gemspec
+I, [2014-01-27T10:50:47.301801 #62041]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-27T10:50:47.302239 #62041]  INFO -- : 0:  execjs (2.0.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/execjs-2.0.2.gemspec
+I, [2014-01-27T10:50:47.302702 #62041]  INFO -- : 0:  coffee-script (2.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-27T10:50:47.303106 #62041]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-01-27T10:50:47.853530 #62041]  INFO -- : 0:  fssm (0.2.10) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/fssm-0.2.10.gemspec
+I, [2014-01-27T10:50:51.724651 #62041]  INFO -- : 0:  compass (0.12.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/compass-0.12.2.gemspec
+I, [2014-01-27T10:50:51.774181 #62041]  INFO -- : 0:  compass-rails (1.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/compass-rails-32c16cb90f78/compass-rails.gemspec
+I, [2014-01-27T10:50:51.774735 #62041]  INFO -- : 0:  orm_adapter (0.4.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/orm_adapter-0.4.0.gemspec
+I, [2014-01-27T10:50:51.775064 #62041]  INFO -- : 0:  warden (1.2.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/warden-1.2.3.gemspec
+I, [2014-01-27T10:50:52.957757 #62041]  INFO -- : 0:  devise (3.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/devise-3.0.3.gemspec
+I, [2014-01-27T10:50:54.261056 #62041]  INFO -- : 0:  devise-i18n (0.9.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/devise-i18n-0.9.2.gemspec
+I, [2014-01-27T10:50:54.261635 #62041]  INFO -- : 0:  diff-lcs (1.2.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/diff-lcs-1.2.4.gemspec
+I, [2014-01-27T10:50:54.922885 #62041]  INFO -- : 0:  dropzonejs-rails (0.4.9) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/dropzonejs-rails-0.4.9.gemspec
+I, [2014-01-27T10:50:56.449005 #62041]  INFO -- : 0:  exception_notification (4.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/exception_notification-4.0.1.gemspec
+I, [2014-01-27T10:50:56.449646 #62041]  INFO -- : 0:  factory_girl (4.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/factory_girl-4.2.0.gemspec
+I, [2014-01-27T10:50:56.450002 #62041]  INFO -- : 0:  factory_girl_rails (4.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/factory_girl_rails-4.2.1.gemspec
+I, [2014-01-27T10:50:58.815911 #62041]  INFO -- : 0:  haml (4.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/haml-4.0.3.gemspec
+I, [2014-01-27T10:51:00.184914 #62041]  INFO -- : 0:  haml-rails (0.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/haml-rails-0.4.gemspec
+I, [2014-01-27T10:51:02.617434 #62041]  INFO -- : 0:  polyamorous (0.6.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/polyamorous-0.6.4.gemspec
+I, [2014-01-27T10:51:04.872386 #62041]  INFO -- : 0:  ransack (1.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/ransack-1.0.0.gemspec
+I, [2014-01-27T10:51:05.763724 #62041]  INFO -- : 0:  responder (0.2.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/responder-0.2.4.gemspec
+I, [2014-01-27T10:51:06.992315 #62041]  INFO -- : 0:  show_for (0.3.0.rc) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/show_for-0.3.0.rc.gemspec
+I, [2014-01-27T10:51:08.722887 #62041]  INFO -- : 0:  will_paginate (3.0.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will_paginate-3.0.5.gemspec
+I, [2014-01-27T10:51:09.611151 #62041]  INFO -- : 0:  will_paginate-bootstrap (0.2.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will_paginate-bootstrap-0.2.5.gemspec
+I, [2014-01-27T10:51:10.198917 #62041]  INFO -- : 0:  hierapolis-rails (0.4.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/hierapolis-rails-0.4.0.gemspec
+I, [2014-01-27T10:51:11.248684 #62041]  INFO -- : 0:  jquery-ui-rails (4.0.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-ui-rails-4.0.5.gemspec
+I, [2014-01-27T10:51:11.766897 #62041]  INFO -- : 0:  kangal (1.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/kangal-1.0.0.gemspec
+I, [2014-01-27T10:51:12.228907 #62041]  INFO -- : 0:  katip (1.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/katip-1.3.0.gemspec
+I, [2014-01-27T10:51:18.731005 #62041]  INFO -- : 0:  kgio (2.8.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/kgio-2.8.1.gemspec
+I, [2014-01-27T10:51:18.731806 #62041]  INFO -- : 0:  launchy (2.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/launchy-2.3.0.gemspec
+I, [2014-01-27T10:51:19.442609 #62041]  INFO -- : 0:  letter_opener (1.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/letter_opener-1.1.2.gemspec
+I, [2014-01-27T10:51:19.443436 #62041]  INFO -- : 0:  paperclip (3.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/paperclip-3.5.1.gemspec
+E, [2014-01-27T10:51:21.000495 #62041] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/gems/pg-0.16.0 for inspection.
+Results logged to /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/extensions/x86_64-darwin-13/2.0.0/pg-0.16.0/gem_make.out
+
+/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/bin/bundle:19:in `load'  \n/Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/bin/bundle:19:in `<main>'
+I, [2014-01-27T10:53:01.478971 #62376]  INFO -- : 0:  rake (10.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.1.0.gemspec
+I, [2014-01-27T10:53:01.479742 #62376]  INFO -- : 0:  i18n (0.6.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.5.gemspec
+I, [2014-01-27T10:53:01.480172 #62376]  INFO -- : 0:  minitest (4.7.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
+I, [2014-01-27T10:53:01.480613 #62376]  INFO -- : 0:  multi_json (1.8.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/multi_json-1.8.2.gemspec
+I, [2014-01-27T10:53:01.481033 #62376]  INFO -- : 0:  atomic (1.1.14) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/atomic-1.1.14.gemspec
+I, [2014-01-27T10:53:01.481463 #62376]  INFO -- : 0:  thread_safe (0.1.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/thread_safe-0.1.3.gemspec
+I, [2014-01-27T10:53:01.481913 #62376]  INFO -- : 0:  tzinfo (0.3.38) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/tzinfo-0.3.38.gemspec
+I, [2014-01-27T10:53:01.482368 #62376]  INFO -- : 0:  activesupport (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activesupport-4.0.0.gemspec
+I, [2014-01-27T10:53:01.482861 #62376]  INFO -- : 0:  builder (3.1.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/builder-3.1.4.gemspec
+I, [2014-01-27T10:53:01.483187 #62376]  INFO -- : 0:  erubis (2.7.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/erubis-2.7.0.gemspec
+I, [2014-01-27T10:53:01.483628 #62376]  INFO -- : 0:  rack (1.5.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-01-27T10:53:01.484235 #62376]  INFO -- : 0:  rack-test (0.6.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-27T10:53:01.484704 #62376]  INFO -- : 0:  actionpack (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/actionpack-4.0.0.gemspec
+I, [2014-01-27T10:53:01.485137 #62376]  INFO -- : 0:  mime-types (1.25) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mime-types-1.25.gemspec
+I, [2014-01-27T10:53:01.485565 #62376]  INFO -- : 0:  polyglot (0.3.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/polyglot-0.3.3.gemspec
+I, [2014-01-27T10:53:01.485981 #62376]  INFO -- : 0:  treetop (1.4.15) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/treetop-1.4.15.gemspec
+I, [2014-01-27T10:53:01.486391 #62376]  INFO -- : 0:  mail (2.5.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mail-2.5.4.gemspec
+I, [2014-01-27T10:53:01.486814 #62376]  INFO -- : 0:  actionmailer (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/actionmailer-4.0.0.gemspec
+I, [2014-01-27T10:53:01.487239 #62376]  INFO -- : 0:  activemodel (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activemodel-4.0.0.gemspec
+I, [2014-01-27T10:53:01.487682 #62376]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-01-27T10:53:01.488097 #62376]  INFO -- : 0:  arel (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/arel-4.0.0.gemspec
+I, [2014-01-27T10:53:01.488513 #62376]  INFO -- : 0:  activerecord (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-4.0.0.gemspec
+I, [2014-01-27T10:53:01.488915 #62376]  INFO -- : 0:  addressable (2.3.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/addressable-2.3.5.gemspec
+I, [2014-01-27T10:53:01.489315 #62376]  INFO -- : 0:  annotate (2.5.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/annotate-2.5.0.gemspec
+I, [2014-01-27T10:53:01.489729 #62376]  INFO -- : 0:  json (1.8.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/json-1.8.1.gemspec
+I, [2014-01-27T10:53:01.490139 #62376]  INFO -- : 0:  mini_portile (0.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/mini_portile-0.5.1.gemspec
+I, [2014-01-27T10:53:01.490549 #62376]  INFO -- : 0:  nokogiri (1.6.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/nokogiri-1.6.0.gemspec
+I, [2014-01-27T10:53:01.490952 #62376]  INFO -- : 0:  uuidtools (2.1.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/uuidtools-2.1.4.gemspec
+I, [2014-01-27T10:53:01.491349 #62376]  INFO -- : 0:  aws-sdk (1.11.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/aws-sdk-1.11.1.gemspec
+I, [2014-01-27T10:53:01.491756 #62376]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-01-27T10:53:01.492160 #62376]  INFO -- : 0:  thor (0.18.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/thor-0.18.1.gemspec
+I, [2014-01-27T10:53:01.492579 #62376]  INFO -- : 0:  railties (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/railties-4.0.0.gemspec
+I, [2014-01-27T10:53:01.493003 #62376]  INFO -- : 0:  jquery-rails (3.0.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-01-27T10:53:01.493352 #62376]  INFO -- : 0:  bundler (1.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247@global/specifications/bundler-1.5.1.gemspec
+I, [2014-01-27T10:53:01.493651 #62376]  INFO -- : 0:  hike (1.2.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/hike-1.2.3.gemspec
+I, [2014-01-27T10:53:01.493946 #62376]  INFO -- : 0:  tilt (1.4.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/tilt-1.4.1.gemspec
+I, [2014-01-27T10:53:01.494248 #62376]  INFO -- : 0:  sprockets (2.10.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-2.10.0.gemspec
+I, [2014-01-27T10:53:01.494602 #62376]  INFO -- : 0:  sprockets-rails (2.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-01-27T10:53:01.494935 #62376]  INFO -- : 0:  rails (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rails-4.0.0.gemspec
+I, [2014-01-27T10:53:01.600801 #62376]  INFO -- : 0:  best_in_place (2.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/best_in_place-366413be357d/best_in_place.gemspec
+I, [2014-01-27T10:53:01.601349 #62376]  INFO -- : 0:  coderay (1.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coderay-1.1.0.gemspec
+I, [2014-01-27T10:53:01.601675 #62376]  INFO -- : 0:  better_errors (1.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/better_errors-1.0.1.gemspec
+I, [2014-01-27T10:53:01.602007 #62376]  INFO -- : 0:  debug_inspector (0.0.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/debug_inspector-0.0.2.gemspec
+I, [2014-01-27T10:53:01.602328 #62376]  INFO -- : 0:  binding_of_caller (0.7.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/binding_of_caller-0.7.2.gemspec
+I, [2014-01-27T10:53:01.602661 #62376]  INFO -- : 0:  blankable (0.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/blankable-0.2.0.gemspec
+I, [2014-01-27T10:53:01.602978 #62376]  INFO -- : 0:  bootstrap-datepicker-rails (1.1.1.8) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/bootstrap-datepicker-rails-1.1.1.8.gemspec
+I, [2014-01-27T10:53:01.603298 #62376]  INFO -- : 0:  sass (3.2.12) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sass-3.2.12.gemspec
+I, [2014-01-27T10:53:02.010150 #62376]  INFO -- : 0:  bootstrap-sass (3.0.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/bootstrap-sass-d3a34e06b37f/bootstrap-sass.gemspec
+I, [2014-01-27T10:53:02.010789 #62376]  INFO -- : 0:  breadcrumbs_on_rails (2.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/breadcrumbs_on_rails-2.3.0.gemspec
+I, [2014-01-27T10:53:02.011211 #62376]  INFO -- : 0:  highline (1.6.20) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/highline-1.6.20.gemspec
+I, [2014-01-27T10:53:02.011617 #62376]  INFO -- : 0:  net-ssh (2.7.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-ssh-2.7.0.gemspec
+I, [2014-01-27T10:53:02.012024 #62376]  INFO -- : 0:  net-scp (1.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-scp-1.1.2.gemspec
+I, [2014-01-27T10:53:02.012436 #62376]  INFO -- : 0:  net-sftp (2.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-sftp-2.1.2.gemspec
+I, [2014-01-27T10:53:02.012851 #62376]  INFO -- : 0:  net-ssh-gateway (1.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/net-ssh-gateway-1.2.0.gemspec
+I, [2014-01-27T10:53:02.013256 #62376]  INFO -- : 0:  capistrano (2.15.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capistrano-2.15.5.gemspec
+I, [2014-01-27T10:53:02.013663 #62376]  INFO -- : 0:  capistrano-ext (1.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capistrano-ext-1.2.1.gemspec
+I, [2014-01-27T10:53:02.014072 #62376]  INFO -- : 0:  xpath (2.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/xpath-2.0.0.gemspec
+I, [2014-01-27T10:53:02.014498 #62376]  INFO -- : 0:  capybara (2.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/capybara-2.1.0.gemspec
+I, [2014-01-27T10:53:02.014906 #62376]  INFO -- : 0:  chronic (0.10.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/chronic-0.10.2.gemspec
+I, [2014-01-27T10:53:02.015308 #62376]  INFO -- : 0:  chunky_png (1.2.9) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/chunky_png-1.2.9.gemspec
+I, [2014-01-27T10:53:02.015714 #62376]  INFO -- : 0:  climate_control (0.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/climate_control-0.0.3.gemspec
+I, [2014-01-27T10:53:02.016117 #62376]  INFO -- : 0:  cocaine (0.5.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/cocaine-0.5.2.gemspec
+I, [2014-01-27T10:53:02.016517 #62376]  INFO -- : 0:  cocoon (1.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/cocoon-1.2.1.gemspec
+I, [2014-01-27T10:53:02.016927 #62376]  INFO -- : 0:  coffee-script-source (1.6.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-01-27T10:53:02.017335 #62376]  INFO -- : 0:  execjs (2.0.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/execjs-2.0.2.gemspec
+I, [2014-01-27T10:53:02.017745 #62376]  INFO -- : 0:  coffee-script (2.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-2.2.0.gemspec
+I, [2014-01-27T10:53:02.018162 #62376]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-01-27T10:53:02.018585 #62376]  INFO -- : 0:  fssm (0.2.10) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/fssm-0.2.10.gemspec
+I, [2014-01-27T10:53:02.018990 #62376]  INFO -- : 0:  compass (0.12.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/compass-0.12.2.gemspec
+I, [2014-01-27T10:53:02.054662 #62376]  INFO -- : 0:  compass-rails (1.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/bundler/gems/compass-rails-32c16cb90f78/compass-rails.gemspec
+I, [2014-01-27T10:53:02.055133 #62376]  INFO -- : 0:  orm_adapter (0.4.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/orm_adapter-0.4.0.gemspec
+I, [2014-01-27T10:53:02.055428 #62376]  INFO -- : 0:  warden (1.2.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/warden-1.2.3.gemspec
+I, [2014-01-27T10:53:02.055733 #62376]  INFO -- : 0:  devise (3.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/devise-3.0.3.gemspec
+I, [2014-01-27T10:53:02.056025 #62376]  INFO -- : 0:  devise-i18n (0.9.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/devise-i18n-0.9.2.gemspec
+I, [2014-01-27T10:53:02.056331 #62376]  INFO -- : 0:  diff-lcs (1.2.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/diff-lcs-1.2.4.gemspec
+I, [2014-01-27T10:53:02.056623 #62376]  INFO -- : 0:  dropzonejs-rails (0.4.9) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/dropzonejs-rails-0.4.9.gemspec
+I, [2014-01-27T10:53:02.056918 #62376]  INFO -- : 0:  exception_notification (4.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/exception_notification-4.0.1.gemspec
+I, [2014-01-27T10:53:02.057217 #62376]  INFO -- : 0:  factory_girl (4.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/factory_girl-4.2.0.gemspec
+I, [2014-01-27T10:53:02.057665 #62376]  INFO -- : 0:  factory_girl_rails (4.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/factory_girl_rails-4.2.1.gemspec
+I, [2014-01-27T10:53:02.058109 #62376]  INFO -- : 0:  haml (4.0.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/haml-4.0.3.gemspec
+I, [2014-01-27T10:53:02.058565 #62376]  INFO -- : 0:  haml-rails (0.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/haml-rails-0.4.gemspec
+I, [2014-01-27T10:53:02.059015 #62376]  INFO -- : 0:  polyamorous (0.6.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/polyamorous-0.6.4.gemspec
+I, [2014-01-27T10:53:02.059454 #62376]  INFO -- : 0:  ransack (1.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/ransack-1.0.0.gemspec
+I, [2014-01-27T10:53:02.059879 #62376]  INFO -- : 0:  responder (0.2.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/responder-0.2.4.gemspec
+I, [2014-01-27T10:53:02.060299 #62376]  INFO -- : 0:  show_for (0.3.0.rc) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/show_for-0.3.0.rc.gemspec
+I, [2014-01-27T10:53:02.060689 #62376]  INFO -- : 0:  will_paginate (3.0.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will_paginate-3.0.5.gemspec
+I, [2014-01-27T10:53:02.060997 #62376]  INFO -- : 0:  will_paginate-bootstrap (0.2.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will_paginate-bootstrap-0.2.5.gemspec
+I, [2014-01-27T10:53:02.061300 #62376]  INFO -- : 0:  hierapolis-rails (0.4.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/hierapolis-rails-0.4.0.gemspec
+I, [2014-01-27T10:53:02.061599 #62376]  INFO -- : 0:  jquery-ui-rails (4.0.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-ui-rails-4.0.5.gemspec
+I, [2014-01-27T10:53:02.061888 #62376]  INFO -- : 0:  kangal (1.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/kangal-1.0.0.gemspec
+I, [2014-01-27T10:53:02.062176 #62376]  INFO -- : 0:  katip (1.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/katip-1.3.0.gemspec
+I, [2014-01-27T10:53:02.062471 #62376]  INFO -- : 0:  kgio (2.8.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/kgio-2.8.1.gemspec
+I, [2014-01-27T10:53:02.062766 #62376]  INFO -- : 0:  launchy (2.3.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/launchy-2.3.0.gemspec
+I, [2014-01-27T10:53:02.063088 #62376]  INFO -- : 0:  letter_opener (1.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/letter_opener-1.1.2.gemspec
+I, [2014-01-27T10:53:02.063377 #62376]  INFO -- : 0:  paperclip (3.5.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/paperclip-3.5.1.gemspec
+I, [2014-01-27T10:53:08.331208 #62376]  INFO -- : 0:  pg (0.16.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/pg-0.16.0.gemspec
+I, [2014-01-27T10:53:08.928455 #62376]  INFO -- : 0:  rack-timeout (0.0.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rack-timeout-0.0.4.gemspec
+I, [2014-01-27T10:53:10.336222 #62376]  INFO -- : 0:  rails-i18n (4.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rails-i18n-4.0.0.gemspec
+I, [2014-01-27T10:53:10.878733 #62376]  INFO -- : 0:  rails-observers (0.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rails-observers-0.1.2.gemspec
+I, [2014-01-27T10:53:11.624546 #62376]  INFO -- : 0:  rails_config (0.3.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rails_config-0.3.3.gemspec
+I, [2014-01-27T10:53:13.528777 #62376]  INFO -- : 0:  raindrops (0.12.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/raindrops-0.12.0.gemspec
+I, [2014-01-27T10:53:13.529763 #62376]  INFO -- : 0:  rdoc (3.12.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rdoc-3.12.2.gemspec
+I, [2014-01-27T10:53:14.032188 #62376]  INFO -- : 0:  recipient_interceptor (0.1.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/recipient_interceptor-0.1.2.gemspec
+I, [2014-01-27T10:53:14.528780 #62376]  INFO -- : 0:  rename (1.0.2) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rename-1.0.2.gemspec
+I, [2014-01-27T10:53:15.335492 #62376]  INFO -- : 0:  responders (1.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/responders-1.0.0.gemspec
+I, [2014-01-27T10:53:16.419044 #62376]  INFO -- : 0:  rspec-core (2.14.6) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-core-2.14.6.gemspec
+I, [2014-01-27T10:53:16.419784 #62376]  INFO -- : 0:  rspec-expectations (2.14.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-expectations-2.14.3.gemspec
+I, [2014-01-27T10:53:16.420215 #62376]  INFO -- : 0:  rspec-mocks (2.14.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-mocks-2.14.4.gemspec
+I, [2014-01-27T10:53:16.420653 #62376]  INFO -- : 0:  rspec-rails (2.14.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-rails-2.14.0.gemspec
+I, [2014-01-27T10:53:16.421082 #62376]  INFO -- : 0:  sass-rails (4.0.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sass-rails-4.0.1.gemspec
+I, [2014-01-27T10:53:16.421502 #62376]  INFO -- : 0:  sdoc (0.3.20) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/sdoc-0.3.20.gemspec
+I, [2014-01-27T10:53:17.379195 #62376]  INFO -- : 0:  select2-rails (3.5.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/select2-rails-3.5.0.gemspec
+I, [2014-01-27T10:53:17.939635 #62376]  INFO -- : 0:  shoulda-context (1.1.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/shoulda-context-1.1.5.gemspec
+I, [2014-01-27T10:53:18.858866 #62376]  INFO -- : 0:  shoulda-matchers (2.2.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/shoulda-matchers-2.2.0.gemspec
+I, [2014-01-27T10:53:19.668927 #62376]  INFO -- : 0:  simple_form (3.0.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/simple_form-3.0.0.gemspec
+I, [2014-01-27T10:53:19.669614 #62376]  INFO -- : 0:  uglifier (2.2.1) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/uglifier-2.2.1.gemspec
+I, [2014-01-27T10:53:23.182698 #62376]  INFO -- : 0:  unicorn (4.6.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/unicorn-4.6.3.gemspec
+I, [2014-01-27T10:53:23.983224 #62376]  INFO -- : 0:  whenever (0.8.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/whenever-0.8.4.gemspec
+I, [2014-01-27T10:53:24.487004 #62376]  INFO -- : 0:  will-paginate-i18n (0.1.13) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will-paginate-i18n-0.1.13.gemspec
