@@ -1,0 +1,348 @@
+/*
+ * This is a manifest file that will be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require bootstrap-datepicker
+ *= require_tree .
+
+@import 'hierapolis'
+@import 'dropzone/dropzone'
+
+$assets-url: "/assets/"
+
+#assign-project-collaborators
+  text-align: right
+  img
+    margin-left: 5px
+    cursor: move
+
+ul.ui-autocomplete
+  position: absolute
+  width: 400px
+  margin: 0
+  padding: 0
+  top: 20px
+  list-style: none
+  border: solid 1px $silver
+  +border-radius(5px)
+  cursor: default
+  li
+    background-color: $clouds
+    +border-radius(5px)
+    border-top: solid 1px #ddd
+    margin: 0
+    padding: 2px
+    a
+      color: #000
+      display: block
+      padding: 3px
+    a.ui-state-hover, a.ui-state-active
+      background-color: orange
+      color: #ffffff
+
+.add_fields, .remove_fields
+  @extend .btn
+.add_fields
+  @extend .btn-default
+.remove_fields
+  @extend .btn-danger
+  float: right
+
+.switcher
+  margin-left: -20px !important
+  a.dropdown-toggle
+    color: $base-dark-color !important
+  .dropdown-menu:after
+    right: 208px !important
+  .dropdown-menu
+    min-width: 233px !important
+    li.active
+      padding: 4px 10px 0 10px
+      color: $base-color
+      i
+        margin-right: 5px
+    > li.project > a
+      padding: 3px 11px
+      i
+        margin-right: 5px
+    li.project
+      a:hover
+        background-color: rgba(0,0,0,0)
+        color: $base-color
+    li.action
+      padding: 0 10px 5px 10px
+
+// Hierapolis overrides
+#beaker-wrapper
+  text-align: center
+  width: 80px
+  position: fixed
+  bottom: 15px
+  img#beaker-img
+    width: 18px
+    margin: auto
+
+body.login .wrapper .brand h1 .logo-icon i[class*='icon-']
+  margin-left: -2px !important
+#navbar .navbar-brand
+  margin-top: -3px !important
+
+.info-text
+  font-size: .9em
+  color: $silver
+
+.avatar-image
+  border: 1px solid $silver
+  background-color: white
+  width: 75px
+  height: 75px
+  &.avatar-image-empty
+    width: 50px
+    height: 50px
+  &.avatar-image-sml
+    padding: 1px
+    width: 20px
+    height: 20px
+  &.avatar-image-md
+    width: 35px
+    height: 35px
+  &.avatar-image-lg
+    width: 100px
+    height: 100px
+
+// Project and cards
+//.vertical-scroll
+//  overflow-x: scroll
+
+.project-list
+  &:active
+    cursor: move !important
+  width: 300px !important
+  float: left
+  margin-right: 10px
+
+  .add-card-form
+    display: none
+  .project-list-item
+    width: 300px !important
+    float: left
+    max-height: 500px
+    overflow-y: scroll
+    .card
+      a
+        color: $base-dark-color
+      &:active
+        cursor: move
+      border: 1px solid $panel-default-border
+      width: 100%
+      height: 66px
+      margin-bottom: 5px
+      background-color: gray
+      border-radius: 5px
+      background-color: #f3f3f3
+      padding: 5px
+      margin-bottom: 15px
+      a.close
+        margin:
+          top: -10px
+          right: -4px
+
+      p.title
+        padding-top: 0px
+        margin: 0 0 4px
+        width: 200px
+      .user
+        img
+          float: right
+          width: 50px
+          height: 50px
+          margin:
+            top: -25px
+            right: 2px
+
+    .user-icon
+      @extend .icon-list
+      float: right
+      margin-right: 10px
+
+  .project-list-item::-webkit-scrollbar
+    display: none
+  .vertical-scroll::-webkit-scrollbar
+    display: none
+  .project-list-item::-moz-scrollbar
+    display: none
+
+.card-list
+  width: 100%
+  font-size: 1.1em
+  padding: 8px
+  margin-top: -20px
+  display: inline-block
+  background-color: $silver
+  color: $base-dark-color
+  margin-bottom: 12px
+.card-stats
+  padding-top: 10px
+  &.card-stats-inline
+    width: 202px
+    border-top: 1px solid $silver
+    padding-top: 5px
+    span.stat
+      font-size: 0.8em !important
+  &.card-stats-extended
+    width: 255px
+  &.card-stats-lg
+    span.stat
+      display: inline-block
+      width: 100%
+      text-align: left
+      background-color: $clouds
+      border: none
+      margin-bottom: 5px
+      padding: 7px
+  span.stat
+    cursor: default
+    @extend .label, .label-default
+    font-size: 1em
+    font-weight: 400
+    +border-radius(4px)
+    background-color: white
+    color: $base-dark-color
+    padding: 5px
+    float: left
+    margin-right: 2px
+    border: 1px solid $silver
+
+.ui-sortable-placeholder
+  border: 1px dashed $silver !important
+  visibility: visible !important
+  height: 50px !important
+
+.checklist-text
+  margin-left: 20px !important
+
+.best_in_place
+  textarea, input, select
+    width: 100%
+    @extend .text, .form-control
+  select
+    margin: 10px 0
+    display: inline
+    font-size: 1em !important
+    height: 30px !important
+
+a.inplace-edit-activator
+  color: $silver
+  font-size: .9em
+  text-decoration: none !important
+  &:hover
+    color: darken($silver, 50)
+
+.pointer
+  cursor: pointer !important
+
+.bs-callout
+  background-color: $clouds
+  margin: 20px 0
+  padding: 15px 30px 15px 15px
+  border-left: 5px solid $silver
+
+.margin-up
+  margin-top: 5px
+
+.draggable
+  z-index: 2
+.dropClass
+  width: 50px !important
+
+
+.checklist-item
+  .inplace-edit-activator
+    margin-top: 2px
+  .checklist_check
+    margin: 0 2px 0 4px
+
+.blank_message
+  font-size: 36px
+.sml-text
+  font-size: .7em
+  font-weight: 400
+
+.assigned-filters
+  a.label
+    background-color: $silver
+    color: $base-dark-color
+    font-size: 1em
+    &:hover
+      color: $base-dark-color
+      background-color: darken($silver, 5)
+    &.active
+      background-color: darken($silver, 15)
+      font-weight: 600 !important
+.panel
+  &.panel-light
+    hr
+      border-top: 1px solid $panel-default-border
+    background-color: $panel-default-heading-bg
+
+#documents-list-table
+  font-size: .8em
+  margin:
+    top: 10px
+    bottom: 0
+
+// Datepicker overrides
+.ui-datepicker
+  background-color: #fff
+  padding: 14px
+  font-size: 1em
+  +border-radius(4px)
+  border: 1px solid $silver
+  .ui-icon-circle-triangle-e
+    float: right
+  .ui-datepicker-header
+    a
+      cursor: pointer
+    border-bottom: 1px solid $silver
+    padding-top: 5px
+    margin-bottom: 5px
+    .ui-datepicker-title
+      text-align: center
+  td
+    padding: 3px
+    text-align: center
+  a
+    color: $base-dark-color
+    text-decoration: none
+    &:hover
+      color: $base-color
+
+.ui-datepicker-trigger
+  display: none
+
+.past_due
+  background-color: $brand-danger !important
+  color: white !important
+.past_due_text
+  color: $brand-danger !important
+
+#list-switcher
+  margin-top: -8px
+  button
+    width: 100%
+    font-weight: 800
+  width: 100%
+  text-align: center
+  .dropdown-menu
+    width: 100%
+
+.text-center
+  text-align: center
+

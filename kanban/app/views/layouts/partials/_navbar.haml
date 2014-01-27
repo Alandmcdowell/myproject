@@ -1,0 +1,45 @@
+#navbar.navbar.navbar-default
+  - if @current_project.present?
+    %a.navbar-brand{:href => project_path(@current_project)}
+      %i.icon-tasks
+      = @current_project.name
+    %ul.nav.navbar-nav.switcher
+      %li.dropdown
+        %a.dropdown-toggle{data: {toggle: 'dropdown'}, :href => '#'}
+          %i.icon-exchange
+          Switch
+          %span.caret
+        %ul.dropdown-menu
+          %li.active
+            %i.icon-circle
+            = @current_project.name
+          - if current_user.projects.size > 1
+            %li.divider
+          - current_user.projects.each do |project|
+            - unless project.id == @current_project.id || project.id.nil?
+              %li.project
+                = link_to current_projects_path(project_id: project.id), method: :post do
+                  %i.icon-circle-blank
+                  = project.name
+          %li.divider
+          %li.action
+            %a.btn.btn-xs.btn-success{href: new_project_path}
+              Add New Project
+
+
+  %ul.nav.navbar-nav.pull-right
+    %li.dropdown.user
+      %a.dropdown-toggle{'data-toggle' => 'dropdown', :href => '#'}
+        = image_tag avatar_url(current_user), class: 'img-circle'
+        %strong=current_user.name
+        %b.caret
+      %ul.dropdown-menu
+        %li
+          %a{:href => edit_user_registration_path} Account settings
+        %li
+          %a{:href => edit_profile_path(current_user)} Edit profile
+
+    %li
+      = link_to destroy_user_session_path,  method: :delete do
+        %i.icon-off
+        Sign out

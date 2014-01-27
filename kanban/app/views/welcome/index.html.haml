@@ -1,0 +1,87 @@
+- title t 'welcome'
+
+.jumbotron.text-center
+  .row
+    .col-md-7
+      %h1 Ganban is a simple Kanban application
+
+      %hr/
+
+      - if current_user
+        .row-fluid.marketing
+          %p
+            %strong Name:
+            = current_user.name
+            %br/
+            %strong Email:
+            = current_user.email
+        - if @current_project
+          = link_to 'Ganban Dashboard', @current_project, class: 'btn btn-lg btn-primary'
+        - else
+          = link_to 'Ganban Dashboard', new_project_path, class: 'btn btn-lg btn-primary'
+      - else
+        .sign-buttons
+          = link_to 'Create your Kanban now!', new_user_registration_path, class: 'btn btn-lg btn-success'
+          = link_to 'Sign in', new_user_session_path, class: 'btn btn-lg btn-primary'
+      
+    .col-md-5
+      #preview
+        =image_tag '0-ganban-preview.jpg'
+
+.row
+  .col-md-10.col-md-offset-1
+    %p
+      %h3 What is Kanban?
+      %strong Kanban (かんばん(看板)?) (literally signboard or billboard)
+      is a scheduling system for lean and just-in-time (JIT)
+      production.Kanban is a system to control the logistical chain from a production point of view,
+      and is not an inventory control system. Kanban was developed by Taiichi Ohno, at Toyota,
+      to find a system to improve and maintain a high level of production.
+      Kanban is one method through which JIT is achieved.
+
+
+#videos
+  %h3.text-center See how it works
+  %hr/
+  .row
+    .col-md-3
+      =link_to 'http://vimeo.com/77360714', target: :blank do
+        =image_tag '1-create-project.jpg'
+        .text-center
+          Create project
+    .col-md-3
+      =link_to 'https://vimeo.com/77360715', target: :blank do
+        =image_tag '2-add-project-collaborators.jpg'
+        .text-center
+          Add project collaborators
+    .col-md-3
+      =link_to 'https://vimeo.com/77360716', target: :blank do
+        =image_tag '3-user-kanban.jpg'
+        .text-center
+          Use kanban
+    .col-md-3
+      =link_to 'https://vimeo.com/77361295', target: :blank do
+        =image_tag '4-add-card-to-kanban.jpg'
+        .text-center
+          Add cards to kanban
+  .row
+    .col-md-3.col-md-offset-3
+      =link_to 'http://vimeo.com/77361852', target: :blank do
+        =image_tag '5-card-detail.jpg'
+        .text-center
+          Card detail
+    .col-md-3
+      =link_to 'http://vimeo.com/77362348', target: :blank do
+        =image_tag '6-assign-card.jpg'
+        .text-center
+          Assign Card (Task)
+    -#.col-md-3
+    -#  =link_to '#', target: :blank do
+    -#    =image_tag 'http://placehold.it/300x200&text=Screencast video', class: 'thumbnail'
+    -#    .text-center
+    -#      Use kanban
+    -#.col-md-3
+    -#  =link_to '#', target: :blank do
+    -#    =image_tag 'http://placehold.it/300x200&text=Screencast video', class: 'thumbnail'
+    -#    .text-center
+    -#      Profile & Account
