@@ -108,8 +108,8 @@ Kanban::Application.configure do
   config.middleware.use ExceptionNotification::Rack,
     :email => {
       :email_prefix => "[Whatever] ",
-      :sender_address => %{"notifier" <notifier@ganban.com>},
-      :exception_recipients => %w{exceptions@ganban.com}
+      :sender_address => %{"notifier" <collaborall@outlook.com>},
+      :exception_recipients => %w{collaborall@outlook.com}
     }
 
 end
