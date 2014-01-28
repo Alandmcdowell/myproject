@@ -95,7 +95,7 @@ Kanban::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Mail Setting
-  config.action_mailer.default_url_options = { :host => 'ganban.com' }
+  config.action_mailer.default_url_options = { :host => '' }
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.raise_delivery_errors = false
@@ -110,8 +110,8 @@ Kanban::Application.configure do
   config.middleware.use ExceptionNotification::Rack,
     :email => {
       :email_prefix => "[Exception ] ",
-      :sender_address => %{"notifier" <notifier@ganban.com>},
-      :exception_recipients => %w{exceptions@ganban.com}
+      :sender_address => %{"notifier" <collaborall@outlook.com>},
+      :exception_recipients => %w{collaborall@outlook.com}
     }
 
 end
