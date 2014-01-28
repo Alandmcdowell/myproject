@@ -41,7 +41,7 @@ class ApplicationController < ActionController::Base
 
   def set_quest_user
     unless current_user
-      @guest_user = User.where(email: 'info@lab2023.com').last
+      @guest_user = User.where(email: 'collaborall@outlook.com').last
     end
   end
 
