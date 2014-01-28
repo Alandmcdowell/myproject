@@ -223,8 +223,6 @@ GEM
       json (~> 1.4)
     recipient_interceptor (0.1.2)
       mail
-    rename (1.0.2)
-      rails (>= 3.0.0)
     responder (0.2.4)
       compass (>= 0.12.2)
       rake
@@ -340,7 +338,6 @@ DEPENDENCIES
   rails_config (~> 0.3.3)
   ransack
   recipient_interceptor (~> 0.1.2)
-  rename
   responders (~> 1.0.0.rc)
   rspec-rails (~> 2.14.0)
   sass-rails (~> 4.0.0)

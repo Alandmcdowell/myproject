@@ -33,7 +33,6 @@ gem 'ransack'
 gem 'select2-rails'
 gem 'rails-observers'
 
-gem 'rename'
 gem 'rails_12factor'
 gem 'hierapolis-rails', '~> 0.4.0'
 gem 'breadcrumbs_on_rails', '~> 2.3.0'
