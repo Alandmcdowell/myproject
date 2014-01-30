@@ -5,6 +5,9 @@ class Card < ActiveRecord::Base
   has_many :comments
   has_many :checklists
   has_many :documents
+  belongs_to :user
+  
+  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }
 
   scope :by_assigned, lambda {|user_id|
     where(assignment_id: user_id)
