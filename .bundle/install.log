@@ -378,6 +378,7 @@ I, [2014-01-27T12:36:08.238514 #65207]  INFO -- : 0:  uglifier (2.2.1) from /Use
 I, [2014-01-27T12:36:08.238911 #65207]  INFO -- : 0:  unicorn (4.6.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/unicorn-4.6.3.gemspec
 I, [2014-01-27T12:36:08.239303 #65207]  INFO -- : 0:  whenever (0.8.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/whenever-0.8.4.gemspec
 I, [2014-01-27T12:36:08.239692 #65207]  INFO -- : 0:  will-paginate-i18n (0.1.13) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will-paginate-i18n-0.1.13.gemspec
+<<<<<<< HEAD
 I, [2014-01-31T10:44:25.206629 #14943]  INFO -- : 0:  rake (10.1.0) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.1.0.gemspec
 I, [2014-01-31T10:44:25.207269 #14943]  INFO -- : 0:  i18n (0.6.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.5.gemspec
 I, [2014-01-31T10:44:25.207624 #14943]  INFO -- : 0:  minitest (4.7.5) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
@@ -499,3 +500,5 @@ I, [2014-01-31T10:44:25.827540 #14943]  INFO -- : 0:  uglifier (2.2.1) from /Use
 I, [2014-01-31T10:44:25.827900 #14943]  INFO -- : 0:  unicorn (4.6.3) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/unicorn-4.6.3.gemspec
 I, [2014-01-31T10:44:25.828262 #14943]  INFO -- : 0:  whenever (0.8.4) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/whenever-0.8.4.gemspec
 I, [2014-01-31T10:44:25.828612 #14943]  INFO -- : 0:  will-paginate-i18n (0.1.13) from /Users/alanmcdowell/.rvm/gems/ruby-2.0.0-p247/specifications/will-paginate-i18n-0.1.13.gemspec
+=======
+>>>>>>> 67c26584e68c595dc814d3ed5c2a9ec812812604
