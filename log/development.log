@@ -1,0 +1,1655 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 09:46:56 +0000
+
+PG::ConnectionBad - fe_sendauth: no password supplied
+:
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.0) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1328015216255348265__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70165048145660/variables" for 127.0.0.1 at 2014-01-27 09:46:56 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2014-01-27 09:46:56 +0000
+
+PG::ConnectionBad - fe_sendauth: no password supplied
+:
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:825:in `connect'
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:542:in `initialize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/migration.rb:792:in `current_version'
+  activerecord (4.0.0) lib/active_record/migration.rb:800:in `needs_migration?'
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1328015216255348265__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+  [1m[36m (0.3ms)[0m  [1mDROP DATABASE IF EXISTS "kanban"[0m
+  [1m[35m (494.7ms)[0m  CREATE DATABASE "kanban" ENCODING = 'utf8'
+  [1m[36m (4.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20131019051953)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (8.6ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "name" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019051953"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to AddTimeZoneToUser (20131019051957)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (1.4ms)[0m  [1mALTER TABLE "users" ADD COLUMN "time_zone" character varying(255)[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019051957"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateAdmins (20131019052000)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (8.2ms)[0m  [1mCREATE TABLE "admins" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019052000"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProjects (20131019074006)
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (5.2ms)[0m  [1mCREATE TABLE "projects" ("id" serial primary key, "name" character varying(255), "archive" boolean, "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.9ms)[0m  CREATE INDEX "index_projects_on_user_id" ON "projects" ("user_id")
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019074006"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to RenameProjectUserIdColumn (20131019081213)
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "projects" RENAME COLUMN "user_id" TO "owner_id"
+  [1m[36m (0.5ms)[0m  [1mALTER INDEX "index_projects_on_user_id" RENAME TO "index_projects_on_owner_id"[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019081213"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProjectsUsersTable (20131019081653)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (1.8ms)[0m  [1mCREATE TABLE "projects_users" ("project_id" integer, "user_id" integer) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019081653"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddDescriptionToProject (20131019105702)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.1ms)[0m  [1mALTER TABLE "projects" ADD COLUMN "description" text[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019105702"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateLists (20131019110043)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (4.8ms)[0m  [1mCREATE TABLE "lists" ("id" serial primary key, "name" character varying(255), "sort" integer, "project_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.0ms)[0m  CREATE INDEX "index_lists_on_project_id" ON "lists" ("project_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019110043"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to CreateCards (20131019123049)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (8.9ms)[0m  CREATE TABLE "cards" ("id" serial primary key, "owner_id" integer, "assignment_id" integer, "list_id" integer, "title" character varying(255), "body" text, "due_date" date, "done" boolean, "comment_count" integer, "document_count" integer, "checklist_total_count" integer, "checklist_done_count" integer, "private" boolean, "sort" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.5ms)[0m  [1mCREATE INDEX "index_cards_on_list_id" ON "cards" ("list_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019123049"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToProjectsUsers (20131019132612)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (1.6ms)[0m  [1mCREATE UNIQUE INDEX "index_projects_users_on_user_id_and_project_id" ON "projects_users" ("user_id", "project_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019132612"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddDefaultValueToCardCountFields (20131019142932)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "checklist_done_count" TYPE integer[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "cards" ALTER COLUMN "checklist_done_count" SET DEFAULT 0
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "checklist_total_count" TYPE integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "cards" ALTER COLUMN "checklist_total_count" SET DEFAULT 0
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "comment_count" TYPE integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "cards" ALTER COLUMN "comment_count" SET DEFAULT 0
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "document_count" TYPE integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "cards" ALTER COLUMN "document_count" SET DEFAULT 0
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019142932"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to CreateComments (20131020043615)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (8.5ms)[0m  CREATE TABLE "comments" ("id" serial primary key, "card_id" integer, "user_id" integer, "body" text, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.1ms)[0m  [1mCREATE INDEX "index_comments_on_card_id" ON "comments" ("card_id")[0m
+  [1m[35m (1.8ms)[0m  CREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020043615"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Migrating to CreateChecklists (20131020051713)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.1ms)[0m  CREATE TABLE "checklists" ("id" serial primary key, "card_id" integer, "title" character varying(255), "done" boolean, "done_at" timestamp, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.5ms)[0m  [1mCREATE INDEX "index_checklists_on_card_id" ON "checklists" ("card_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131020051713"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProfiles (20131020084000)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (6.7ms)[0m  [1mCREATE TABLE "profiles" ("id" serial primary key, "twitter" character varying(255), "stackoverflow" character varying(255), "github" character varying(255), "facebook" character varying(255), "blog" character varying(255), "linkedin" character varying(255), "bio" text, "name" character varying(255), "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.8ms)[0m  CREATE INDEX "index_profiles_on_user_id" ON "profiles" ("user_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020084000"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Migrating to RemoveNameFromUser (20131020085328)
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.5ms)[0m  ALTER TABLE "users" DROP "name"
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020085328"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to CreateDocuments (20131020141655)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (7.7ms)[0m  CREATE TABLE "documents" ("id" serial primary key, "card_id" integer, "user_id" integer, "file_file_name" character varying(255), "file_content_type" character varying(255), "file_file_size" integer, "file_updated_at" timestamp, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.0ms)[0m  [1mCREATE INDEX "index_documents_on_card_id" ON "documents" ("card_id")[0m
+  [1m[35m (1.7ms)[0m  CREATE INDEX "index_documents_on_user_id" ON "documents" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020141655"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (1.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'info@lab2023.com' LIMIT 1
+  [1m[36mSQL (4.1ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["email", "info@lab2023.com"], ["encrypted_password", "$2a$10$OwtAq2yzPFaHAnonyPp6a.LIaixQeksBqsSCE6T3HvkUMYoAO0oRK"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["name", "Rails Rumble Reviewer"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'muhammet.dilek@lab2023.com' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["email", "muhammet.dilek@lab2023.com"], ["encrypted_password", "$2a$10$lC4cuu.UXmI.zr5klcQ3xOo3AAtIjt0gOXr.qsB5lXBzn1z8803cC"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["name", "Muhammet Dilek"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'onur.ozgur.ozkan@lab2023.com' LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["email", "onur.ozgur.ozkan@lab2023.com"], ["encrypted_password", "$2a$10$SPMpSlM26p.NKvCqSr6WH.pd.I3l6W3HuBkSSbrPzBTdT8VzOj5tu"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["name", "Onur Özgür Özkan"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["user_id", 3]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'tayfun.ozis.erikan@lab2023.com' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["email", "tayfun.ozis.erikan@lab2023.com"], ["encrypted_password", "$2a$10$ZYEzUSb23PrhexsR0diM8.YOcvSiAN9NKdB90iLqgcPumGe0YZoCS"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["name", "Tayfun Öziş Erikan"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["user_id", 4]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'hamit.turku.kaya@lab2023.com' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["email", "hamit.turku.kaya@lab2023.com"], ["encrypted_password", "$2a$10$5K7wK3x26Y8CywSrH.F3.OBxFsPelqa.b/Y0gK7j82HN8BQCaKnGK"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["name", "Hamit Türkü Kaya"], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["user_id", 5]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "projects" ("created_at", "description", "name", "owner_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00], ["description", "My personel website"], ["name", "Blog"], ["owner_id", 1], ["updated_at", Mon, 27 Jan 2014 09:48:28 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "projects_users" ("project_id", "user_id") VALUES (1, 1)[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "projects_users" ("project_id", "user_id") VALUES (1, 3)
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "projects_users" ("project_id", "user_id") VALUES (1, 4)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "projects_users" ("project_id", "user_id") VALUES (1, 5)
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "projects_users" ("project_id", "user_id") VALUES (1, 2)[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mList Exists (1.1ms)[0m  SELECT 1 AS one FROM "lists" WHERE ("lists"."name" = 'To Do' AND "lists"."project_id" = 1) LIMIT 1
+  [1m[36mList Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "lists" WHERE ("lists"."sort" IS NULL AND "lists"."project_id" = 1) LIMIT 1[0m
+  [1m[35mProject Load (1.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 ORDER BY "projects"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mList Load (0.9ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."project_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["project_id", 1]]
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "lists" ("created_at", "name", "project_id", "sort", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["name", "To Do"], ["project_id", 1], ["sort", 1], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCard Exists (1.2ms)[0m  [1mSELECT 1 AS one FROM "cards" WHERE ("cards"."sort" IS NULL AND "cards"."list_id" = 1) LIMIT 1[0m
+  [1m[35mList Load (1.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCard Load (1.0ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["list_id", 1]]
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "cards" ("created_at", "list_id", "owner_id", "sort", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["list_id", 1], ["owner_id", 1], ["sort", 1], ["title", "Create Project With Cybele"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCard Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM "cards" WHERE ("cards"."sort" IS NULL AND "cards"."list_id" = 1) LIMIT 1[0m
+  [1m[35mList Load (0.5ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mCard Load (0.6ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["list_id", 1]]
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "cards" ("created_at", "list_id", "owner_id", "sort", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["list_id", 1], ["owner_id", 2], ["sort", 2], ["title", "Setup Mandril"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCard Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "cards" WHERE ("cards"."sort" IS NULL AND "cards"."list_id" = 1) LIMIT 1[0m
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 ORDER BY "projects"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "projects_users" ON "users"."id" = "projects_users"."user_id" WHERE "projects_users"."project_id" = $1  [["project_id", 1]]
+  [1m[36mCard Load (0.7ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["list_id", 1]]
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "cards" ("assignment_id", "created_at", "list_id", "owner_id", "sort", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["assignment_id", 3], ["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["list_id", 1], ["owner_id", 2], ["sort", 3], ["title", "Setup Bulutfon"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mList Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "lists" WHERE ("lists"."name" = 'In Progress' AND "lists"."project_id" = 1) LIMIT 1[0m
+  [1m[35mList Exists (0.4ms)[0m  SELECT 1 AS one FROM "lists" WHERE ("lists"."sort" IS NULL AND "lists"."project_id" = 1) LIMIT 1
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 ORDER BY "projects"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."project_id" = $1 ORDER BY sort DESC LIMIT 1  [["project_id", 1]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "lists" ("created_at", "name", "project_id", "sort", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["name", "In Progress"], ["project_id", 1], ["sort", 2], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mCard Exists (0.5ms)[0m  SELECT 1 AS one FROM "cards" WHERE ("cards"."sort" IS NULL AND "cards"."list_id" = 2) LIMIT 1
+  [1m[36mList Load (0.6ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mCard Load (0.6ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."list_id" = $1 ORDER BY sort DESC LIMIT 1  [["list_id", 2]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "cards" ("created_at", "list_id", "owner_id", "sort", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["list_id", 2], ["owner_id", 2], ["sort", 1], ["title", "Setup Capistrano"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mList Exists (0.6ms)[0m  SELECT 1 AS one FROM "lists" WHERE ("lists"."name" = 'Done' AND "lists"."project_id" = 1) LIMIT 1
+  [1m[36mList Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM "lists" WHERE ("lists"."sort" IS NULL AND "lists"."project_id" = 1) LIMIT 1[0m
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 ORDER BY "projects"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mList Load (0.5ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."project_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["project_id", 1]]
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "lists" ("created_at", "name", "project_id", "sort", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["name", "Done"], ["project_id", 1], ["sort", 3], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCard Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "cards" WHERE ("cards"."sort" IS NULL AND "cards"."list_id" = 3) LIMIT 1[0m
+  [1m[35mList Load (0.4ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = $1 ORDER BY "projects"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" INNER JOIN "projects_users" ON "users"."id" = "projects_users"."user_id" WHERE "projects_users"."project_id" = $1  [["project_id", 1]]
+  [1m[36mCard Load (0.6ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."list_id" = $1 ORDER BY sort DESC LIMIT 1[0m  [["list_id", 3]]
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "cards" ("assignment_id", "created_at", "list_id", "owner_id", "sort", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["assignment_id", 5], ["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["list_id", 3], ["owner_id", 4], ["sort", 1], ["title", "Get Domain"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mAdmin Exists (1.3ms)[0m  [1mSELECT 1 AS one FROM "admins" WHERE "admins"."email" = 'admin@ganban.com' LIMIT 1[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "admins" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00], ["email", "admin@ganban.com"], ["encrypted_password", "$2a$10$9lCk0lcWNMkPB4XX28kDeO.BT5up/lXuTrAr6GKAgIN4VjiyWC2Z6"], ["updated_at", Mon, 27 Jan 2014 09:48:29 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 09:49:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (5.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  Rendered welcome/index.html.haml within layouts/welcome (1365.2ms)
+Completed 200 OK in 9450ms (Views: 9337.0ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/1-create-project.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/0-ganban-preview.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/2-add-project-collaborators.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/4-add-card-to-kanban.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/3-user-kanban.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/5-card-detail.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/6-assign-card.jpg" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/rumble-ganban.png" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:35 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-01-27 09:49:36 +0000
+
+
+Started GET "/assets/favicon.png" for 127.0.0.1 at 2014-01-27 09:49:37 +0000
+  [1m[36m (131.6ms)[0m  [1mDROP DATABASE IF EXISTS "kanban"[0m
+  [1m[35m (338.7ms)[0m  CREATE DATABASE "kanban" ENCODING = 'utf8'
+  [1m[36m (5.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (2.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20131019051953)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (8.5ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "name" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (3.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (1.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019051953"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Migrating to AddTimeZoneToUser (20131019051957)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD COLUMN "time_zone" character varying(255)[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019051957"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to DeviseCreateAdmins (20131019052000)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (8.8ms)[0m  [1mCREATE TABLE "admins" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")
+  [1m[36m (2.2ms)[0m  [1mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019052000"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProjects (20131019074006)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (3.9ms)[0m  [1mCREATE TABLE "projects" ("id" serial primary key, "name" character varying(255), "archive" boolean, "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_projects_on_user_id" ON "projects" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019074006"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to RenameProjectUserIdColumn (20131019081213)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "projects" RENAME COLUMN "user_id" TO "owner_id"
+  [1m[36m (0.3ms)[0m  [1mALTER INDEX "index_projects_on_user_id" RENAME TO "index_projects_on_owner_id"[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019081213"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProjectsUsersTable (20131019081653)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "projects_users" ("project_id" integer, "user_id" integer) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019081653"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to AddDescriptionToProject (20131019105702)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (2.9ms)[0m  [1mALTER TABLE "projects" ADD COLUMN "description" text[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019105702"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateLists (20131019110043)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (4.6ms)[0m  [1mCREATE TABLE "lists" ("id" serial primary key, "name" character varying(255), "sort" integer, "project_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.5ms)[0m  CREATE INDEX "index_lists_on_project_id" ON "lists" ("project_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019110043"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Migrating to CreateCards (20131019123049)
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (9.0ms)[0m  CREATE TABLE "cards" ("id" serial primary key, "owner_id" integer, "assignment_id" integer, "list_id" integer, "title" character varying(255), "body" text, "due_date" date, "done" boolean, "comment_count" integer, "document_count" integer, "checklist_total_count" integer, "checklist_done_count" integer, "private" boolean, "sort" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.4ms)[0m  [1mCREATE INDEX "index_cards_on_list_id" ON "cards" ("list_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019123049"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToProjectsUsers (20131019132612)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_projects_users_on_user_id_and_project_id" ON "projects_users" ("user_id", "project_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131019132612"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddDefaultValueToCardCountFields (20131019142932)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "checklist_done_count" TYPE integer[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "cards" ALTER COLUMN "checklist_done_count" SET DEFAULT 0
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "checklist_total_count" TYPE integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "cards" ALTER COLUMN "checklist_total_count" SET DEFAULT 0
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "comment_count" TYPE integer[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "cards" ALTER COLUMN "comment_count" SET DEFAULT 0
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "cards" ALTER COLUMN "document_count" TYPE integer[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "cards" ALTER COLUMN "document_count" SET DEFAULT 0
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131019142932"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Migrating to CreateComments (20131020043615)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (17.4ms)[0m  CREATE TABLE "comments" ("id" serial primary key, "card_id" integer, "user_id" integer, "body" text, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (3.2ms)[0m  [1mCREATE INDEX "index_comments_on_card_id" ON "comments" ("card_id")[0m
+  [1m[35m (1.9ms)[0m  CREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020043615"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Migrating to CreateChecklists (20131020051713)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (5.5ms)[0m  CREATE TABLE "checklists" ("id" serial primary key, "card_id" integer, "title" character varying(255), "done" boolean, "done_at" timestamp, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.9ms)[0m  [1mCREATE INDEX "index_checklists_on_card_id" ON "checklists" ("card_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20131020051713"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProfiles (20131020084000)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (8.3ms)[0m  [1mCREATE TABLE "profiles" ("id" serial primary key, "twitter" character varying(255), "stackoverflow" character varying(255), "github" character varying(255), "facebook" character varying(255), "blog" character varying(255), "linkedin" character varying(255), "bio" text, "name" character varying(255), "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.8ms)[0m  CREATE INDEX "index_profiles_on_user_id" ON "profiles" ("user_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020084000"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Migrating to RemoveNameFromUser (20131020085328)
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "users" DROP "name"
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020085328"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to CreateDocuments (20131020141655)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (6.7ms)[0m  CREATE TABLE "documents" ("id" serial primary key, "card_id" integer, "user_id" integer, "file_file_name" character varying(255), "file_content_type" character varying(255), "file_file_size" integer, "file_updated_at" timestamp, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.5ms)[0m  [1mCREATE INDEX "index_documents_on_card_id" ON "documents" ("card_id")[0m
+  [1m[35m (1.4ms)[0m  CREATE INDEX "index_documents_on_user_id" ON "documents" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20131020141655"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 10:08:17 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  Rendered welcome/index.html.haml within layouts/welcome (985.7ms)
+Completed 500 Internal Server Error in 1037ms
+
+NoMethodError - undefined method `id' for nil:NilClass:
+  app/views/welcome/index.html.haml:26:in `_app_views_welcome_index_html_haml__4559741790939329507_70095853509000'
+  actionpack (4.0.0) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:443:in `_run__264169892458801403__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  exception_notification (4.0.1) lib/exception_notification/rack.rb:28:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1739623945992962597__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 10:08:18 +0000
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1[0m
+  Rendered welcome/index.html.haml within layouts/welcome (2.9ms)
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError - undefined method `id' for nil:NilClass:
+  app/views/welcome/index.html.haml:26:in `_app_views_welcome_index_html_haml__4559741790939329507_70095853509000'
+  actionpack (4.0.0) lib/action_view/template.rb:143:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:443:in `_run__264169892458801403__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  exception_notification (4.0.1) lib/exception_notification/rack.rb:28:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1739623945992962597__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (1.0.1) lib/better_errors/middleware.rb:56:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/alanmcdowell/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70095836282460/variables" for 127.0.0.1 at 2014-01-27 10:08:18 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 10:09:08 +0000
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  Rendered welcome/index.html.haml within layouts/welcome (21.9ms)
+Completed 200 OK in 293ms (Views: 284.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/0-ganban-preview.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/1-create-project.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/2-add-project-collaborators.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/3-user-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/5-card-detail.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/4-add-card-to-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/6-assign-card.jpg" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/rumble-ganban.png" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-01-27 10:09:09 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+Processing by WelcomeController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1[0m
+  Rendered welcome/index.html.haml within layouts/welcome (11.8ms)
+Completed 200 OK in 40ms (Views: 30.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/0-ganban-preview.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/1-create-project.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/2-add-project-collaborators.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/5-card-detail.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/3-user-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/6-assign-card.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/rumble-ganban.png" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/4-add-card-to-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-01-27 10:10:03 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+Processing by WelcomeController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  Rendered welcome/index.html.haml within layouts/welcome (3.3ms)
+Completed 200 OK in 24ms (Views: 16.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/0-ganban-preview.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/6-assign-card.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/1-create-project.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/2-add-project-collaborators.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/5-card-detail.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/rumble-ganban.png" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/3-user-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/4-add-card-to-kanban.jpg" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:23 +0000
+
+
+Started GET "/accounts/new" for 127.0.0.1 at 2014-01-27 10:12:28 +0000
+Processing by RegistrationsController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1[0m
+  Rendered devise/shared/_links.haml (4.2ms)
+  Rendered devise/registrations/new.html.haml within layouts/login (283.3ms)
+WARNING on line 171 of /Users/alanmcdowell/Desktop/kanban/app/assets/stylesheets/application.css.sass: ".project-list .project-list-item .user-icon" failed to @extend ".icon-list".
+  The selector ".icon-list" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .icon-list !optional" if the extend should be able to fail.
+
+
+WARNING on line 234 of /Users/alanmcdowell/Desktop/kanban/app/assets/stylesheets/application.css.sass: ".best_in_place textarea" failed to @extend ".text".
+  The selector ".text" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .text !optional" if the extend should be able to fail.
+
+
+WARNING on line 234 of /Users/alanmcdowell/Desktop/kanban/app/assets/stylesheets/application.css.sass: ".best_in_place input" failed to @extend ".text".
+  The selector ".text" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .text !optional" if the extend should be able to fail.
+
+
+WARNING on line 234 of /Users/alanmcdowell/Desktop/kanban/app/assets/stylesheets/application.css.sass: ".best_in_place select" failed to @extend ".text".
+  The selector ".text" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .text !optional" if the extend should be able to fail.
+
+
+  Rendered layouts/partials/_footer.haml (1629.4ms)
+  Rendered layouts/partials/_trackers.haml (2.4ms)
+Completed 200 OK in 7168ms (Views: 7154.5ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-27 10:12:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/vendor/html5shiv.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/vendor/jquery.knob.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/vendor/plugins.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/hierapolis.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/dropzone.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:36 +0000
+
+
+Started POST "/accounts" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"33TtJAea/DbO/IBPfhoohF33TsnrltAYllTZRKZevjs=", "user"=>{"profile_attributes"=>{"name"=>"alan"}, "email"=>"collaborall@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'collaborall@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.haml (1.0ms)
+  Rendered devise/registrations/new.html.haml within layouts/login (13.7ms)
+  Rendered layouts/partials/_footer.haml (15.2ms)
+  Rendered layouts/partials/_trackers.haml (0.1ms)
+Completed 200 OK in 137ms (Views: 38.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:56 +0000
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/vendor/html5shiv.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/vendor/jquery.knob.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/vendor/plugins.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/hierapolis.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/dropzone.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 10:12:57 +0000
+
+
+Started POST "/accounts" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"33TtJAea/DbO/IBPfhoohF33TsnrltAYllTZRKZevjs=", "user"=>{"profile_attributes"=>{"name"=>"alan"}, "email"=>"collaborall@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'collaborall@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.haml (0.7ms)
+  Rendered devise/registrations/new.html.haml within layouts/login (12.6ms)
+  Rendered layouts/partials/_footer.haml (13.8ms)
+  Rendered layouts/partials/_trackers.haml (0.1ms)
+Completed 200 OK in 137ms (Views: 35.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/vendor/html5shiv.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/vendor/jquery.knob.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/vendor/plugins.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:05 +0000
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:06 +0000
+
+
+Started GET "/assets/hierapolis.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:06 +0000
+
+
+Started GET "/assets/dropzone.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:06 +0000
+
+
+Started POST "/accounts" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"33TtJAea/DbO/IBPfhoohF33TsnrltAYllTZRKZevjs=", "user"=>{"profile_attributes"=>{"name"=>""}, "email"=>"collaborall@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'collaborall@outlook.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.haml (0.6ms)
+  Rendered devise/registrations/new.html.haml within layouts/login (9.5ms)
+  Rendered layouts/partials/_footer.haml (14.3ms)
+  Rendered layouts/partials/_trackers.haml (0.1ms)
+Completed 200 OK in 123ms (Views: 31.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/vendor/jquery.knob.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/vendor/html5shiv.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/vendor/plugins.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/hierapolis.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:12 +0000
+
+
+Started GET "/assets/dropzone.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:13 +0000
+
+
+Started POST "/accounts" for 127.0.0.1 at 2014-01-27 10:13:22 +0000
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"33TtJAea/DbO/IBPfhoohF33TsnrltAYllTZRKZevjs=", "user"=>{"profile_attributes"=>{"name"=>"alan"}, "email"=>"collaborall@outlook.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'info@lab2023.com' ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'collaborall@outlook.com' LIMIT 1
+  [1m[36mSQL (7.2ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00], ["email", "collaborall@outlook.com"], ["encrypted_password", "$2a$10$iLdPg9tuqSnBtu9rYB9gWe9gWuJHNDTzpSyM4IG6d5kQuE0p9BZbS"], ["updated_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00]]
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "profiles" ("created_at", "name", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00], ["name", "alan"], ["updated_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00], ["current_sign_in_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Mon, 27 Jan 2014 10:13:22 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mProject Load (1.8ms)[0m  [1mSELECT "projects".* FROM "projects" INNER JOIN "projects_users" ON "projects"."id" = "projects_users"."project_id" WHERE "projects_users"."user_id" = $1[0m  [["user_id", 1]]
+Redirected to http://localhost:3000/projects/new
+Completed 302 Found in 139ms (ActiveRecord: 22.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2014-01-27 10:13:22 +0000
+Processing by ProjectsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (1.2ms)[0m  [1mSELECT "projects".* FROM "projects" INNER JOIN "projects_users" ON "projects"."id" = "projects_users"."project_id" WHERE "projects_users"."user_id" = $1 ORDER BY "projects"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+  Rendered projects/_list_fields.html.haml (4.8ms)
+  Rendered projects/_list_fields.html.haml (1.2ms)
+  Rendered projects/_list_fields.html.haml (1.1ms)
+  Rendered projects/_list_fields.html.haml (4.9ms)
+  Rendered projects/_form.html.haml (50.2ms)
+  Rendered projects/new.html.haml within layouts/application (55.6ms)
+  [1m[35mProfile Load (1.4ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 ORDER BY "profiles"."id" ASC LIMIT 1  [["user_id", 1]]
+  Rendered layouts/partials/_navbar.haml (13.9ms)
+  Rendered layouts/partials/_dock.haml (9.8ms)
+  Rendered layouts/partials/_breadcrumb.haml (1.6ms)
+  Rendered layouts/partials/_toolbar.haml (1.1ms)
+  Rendered layouts/partials/_footer.haml (10.9ms)
+  Rendered layouts/partials/_trackers.haml (0.1ms)
+Completed 200 OK in 270ms (Views: 109.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/beaker.png" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.purr.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/best_in_place.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/vendor/html5shiv.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/vendor/jquery.knob.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/vendor/plugins.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/hierapolis.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/cocoon.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/dropzone.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-27 10:13:23 +0000

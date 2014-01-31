@@ -1,0 +1,17 @@
+en:
+  activerecord:
+    models:
+      project: Project
+      list: List
+      card: Card
+      collaborator: Collaborator
+    attributes:
+      project:
+        name: Project name
+        user_ids: Collaborator
+      card:
+        owner_id: Creater
+        assignment_id: Assignee
+        list: List
+        list_id: List
+        body: Body

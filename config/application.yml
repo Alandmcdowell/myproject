@@ -1,0 +1,17 @@
+#
+# Don't use this use rails_config gem
+# this file will be deleted.
+#
+defaults: &defaults
+  
+
+production:
+  <<: *defaults
+
+
+development:
+  <<: *defaults
+
+
+staging:
+  <<: *defaults

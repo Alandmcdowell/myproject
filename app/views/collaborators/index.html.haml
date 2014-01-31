@@ -1,0 +1,33 @@
+- title 'Collaborators'
+.row
+  .col-md-5
+    - if @current_project.owner == current_user
+      .panel.panel-default
+        .panel-heading
+          %i.icon-edit.icon-large
+          Add project collaborators
+        .panel-body
+          #collaborator_form
+            = render 'form'
+    - else
+      .panel.panel-default
+        .panel-heading
+          %i.icon-edit.icon-large
+
+        .panel-body
+          %p Only project's owner has privilege to add contributor to project.
+
+  .col-md-7
+    .panel.panel-default.grid
+      .panel-heading
+        %i.icon-group
+        Collaborators
+
+      %table.table
+        %thead
+          %tr
+            %th Name
+            %th Email
+            %th.actions
+        %tbody#collaborators
+          = render partial: 'collaborators/collaborators', collection: @current_project.users, as: :user

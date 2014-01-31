@@ -1,0 +1,131 @@
+- title 'Card - ' + @card.title
+.panel.panel-default
+  .panel-heading
+    %i.icon-edit.icon-large
+    = t('tt.show', resource_name: Card.model_name.human)
+  .panel-body
+    .row
+      .col-md-9
+        %p
+          %strong= best_in_place @card, :title, activator: '#card-title-edit-activator'
+          %a#card-title-edit-activator.inplace-edit-activator{href: '#'}
+            %i.icon-edit
+            Edit title...
+        %p
+          = best_in_place @card, :body, type: :textarea, :display_with => lambda { |v| v.gsub(/\n/, '<br/>').html_safe }, activator: '#card-body-edit-activator'
+          %a#card-body-edit-activator.inplace-edit-activator{href: '#'}
+            %i.icon-edit
+            Edit description...
+
+        %hr/
+
+        #checklist_form
+          #progress-check-list
+            %h4
+              %i.icon-list-alt
+              Checklists
+              %span#checklist_percentage.pull-right.label.label-info.sml-text="#{@checklist_percentage} % Complete"
+            .progress
+              .progress-bar.progress-bar-info{'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => @checklist_percentage, role: 'progressbar', style: "width: #{@checklist_percentage}%;"}
+                %span.sr-only
+                  ="#{@checklist_percentage}% Completed"
+
+          = render 'checklists/form'
+          #checklists
+            = render @card.checklists
+
+        %hr/
+        #comments
+          %h4
+            %i.icon-comments-alt
+            Comments
+          = render @card.comments
+        #comment_form
+          = render 'comments/form'
+
+      .col-md-3
+        .panel.panel-default.panel-light
+          .panel-body
+            .text-center
+              #assigned_id
+                = image_tag avatar_url(@card.assigned), class: 'pointer card-collaborator-edit-activator img-circle avatar-image'
+              %p
+                %strong.card-collaborator-edit-activator= best_in_place @card, :assignment_id, type: :select, classes: 'assign_best_in_place', nil: '<span></span>', collection: @collaborators.map{|u| [u.id, u.name]}, activator: '.card-collaborator-edit-activator'
+                %br/
+                %a.card-collaborator-edit-activator.inplace-edit-activator{href: '#'}
+                  %i.icon-edit
+                  Change collaborator...
+                - if @card.assigned.present?
+                  %br/
+                  = link_to card_path(@card, card: {assignment_id: nil}), class: 'inplace-edit-activator', method: :put, remote: true do
+                    %i.icon-remove-circle
+                    Remove assigned...
+            %hr/
+
+            #list-switcher.btn-group{data: {toggle: 'tooltip'}, title: 'Swtich list'}
+              %button.btn.btn-primary.dropdown-toggle{'data-toggle' => 'dropdown', type: 'button'}
+                = @card.list.name
+                %span.caret
+              %ul.dropdown-menu{role: 'menu'}
+                - @current_project.lists.each do |list|
+                  - if @card.list.id != list.id
+                    %li
+                      = link_to list.name, card_path(@card, card: {list_id: list.id}, list_change: true), method: :put
+
+
+            .card-stats.card-stats-lg
+              %span.stat
+                %strong{class: (@card.due_date.present? && @card.due_date < Date.current) ? 'past_due_text' : ''}
+                  %i.icon-time
+                  = best_in_place @card, :due_date, type: :date, activator: '.card-due_date-edit-activator'
+                %a.pull-right.card-due_date-edit-activator.inplace-edit-activator{href: '#'}
+                  %i.icon-edit
+                  Set...
+
+              %span#checklist_stat.stat
+                %strong
+                  %i.icon-list
+                  = @card.try(:checklist_done_count).to_s + '/' + @card.try(:checklist_total_count).to_s
+                Checklist(s)
+
+              %span#comment_stat.stat
+                %strong
+                  %i.icon-comments-alt
+                  = @card.try(:comment_count)
+                Comment(s)
+
+              %span.stat
+                %strong#document-count
+                  %i.icon-file-alt
+                  = @card.try(:document_count)
+                Document(s)
+                %a.pull-right.inplace-edit-activator{href: '#documentsModal', data: {toggle: 'modal'}}
+                  %i.icon-plus-sign
+                  Add...
+                %table#documents-list-table.table.table-condensed
+                  %tbody#documents-list-table-body
+                    - @card.documents.each do |attachment|
+                      %tr{id: "document-#{attachment.id}"}
+                        %td= link_to(truncate(attachment.file_file_name, length: 20), attachment.file.url, target: '_blank')
+                        %td= number_to_human_size(attachment.file_file_size)
+                        %td
+                          = link_to document_path(attachment), method: :delete, remote: true, confirm: 'Are you sure?',
+                            class: 'inplace-edit-activator', data: {toggle: 'tooltip'}, title: 'Remove' do
+                            %i.icon-remove-circle
+
+
+
+#documentsModal.modal.fade{'aria-hidden' => 'true', 'aria-labelledby' => 'myModalLabel', role: 'dialog', tabindex: '-1'}
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{'aria-hidden' => 'true', 'data-dismiss' => 'modal', type: 'button'} ×
+        %h4.modal-title Attach more documents
+      .modal-body
+        = form_for Document.new, multipart: true, html: {class: :dropzone, id: 'photo-dropzone'} do |f|
+          = f.hidden_field :file
+          = f.hidden_field :card_id, value: @card.id
+      .modal-footer
+        %button#btn-close.btn.btn-default{'data-dismiss' => 'modal', type: 'button'} Close
+
+
