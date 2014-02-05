@@ -7,8 +7,5 @@ development: &default
   timeout: 5000
   host: localhost
   port: 5432
-  username: 
-  password: 
-
- 
-
+  username: alanmcdowell
+  password: nevermind1289 
